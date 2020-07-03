@@ -1,6 +1,7 @@
-::placeholder {
+input {
   color: yellow !important;
 }
-input {
+
+::placeholder {
   color: yellow !important;
 }

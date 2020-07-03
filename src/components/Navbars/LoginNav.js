@@ -20,14 +20,22 @@ const LoginNav = () => {
       <Form inline>
         <InputGroup style={{ width: "271px" }}>
           <FormControl
-            style={{ padding: "13px", borderRadius: "2px" }}
-            placeholder="Username"
+            style={{
+              padding: "13px",
+              borderRadius: "2px",
+              fontFamily: "FontAwesome",
+            }}
+            placeholder="&#xf007; Username"
             aria-label="Username"
             aria-describedby="basic-addon1"
           />
           <FormControl
-            style={{ padding: "13px", borderRadius: "2px" }}
-            placeholder="Password"
+            style={{
+              padding: "13px",
+              borderRadius: "2px",
+              fontFamily: "FontAwesome",
+            }}
+            placeholder="&#xf084; Password"
             aria-label="Password"
             aria-describedby="basic-addon1"
           />
