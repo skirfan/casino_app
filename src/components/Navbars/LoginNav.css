@@ -12,6 +12,10 @@ input {
   }
 }
 
+::placeholder {
+  color: white !important;
+}
+
 /* .register-button {
   width: "107px" !important;
   height: "26px" !important;

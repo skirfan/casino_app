@@ -1,12 +1,22 @@
-import React from "react"
-import { FormControl, Form, Button, Navbar, InputGroup, Nav } from "react-bootstrap"
-import UkFlag from "../../images/uk.png"
+import React from "react";
+import {
+  FormControl,
+  Form,
+  Button,
+  Navbar,
+  InputGroup,
+  Nav,
+} from "react-bootstrap";
+import UkFlag from "../../images/uk.png";
 
-import "./LoginNav.css"
+import "./LoginNav.css";
 
 const LoginNav = () => {
   return (
-    <Navbar className=" justify-content-between login-nav" style={{ backgroundColor: "#333333" }}>
+    <Navbar
+      className=" justify-content-between login-nav"
+      style={{ backgroundColor: "#333333" }}
+    >
       <Form inline>
         <InputGroup style={{ width: "271px" }}>
           <FormControl
@@ -31,7 +41,7 @@ const LoginNav = () => {
             border: "1px solid black",
             color: "white",
             margin: "0 10px",
-            textAlign: "center"
+            textAlign: "center",
           }}
         >
           ?
@@ -46,7 +56,7 @@ const LoginNav = () => {
             alignItems: "center",
             borderRadius: "2px",
             fontWeight: "bold",
-            paddingLeft: "13px"
+            paddingLeft: "13px",
           }}
           variant="warning"
         >
@@ -60,7 +70,7 @@ const LoginNav = () => {
             display: "inline-flex",
             alignItems: "center",
             borderRadius: "2px",
-            fontWeight: "bold"
+            fontWeight: "bold",
           }}
           variant="warning"
         >
@@ -82,13 +92,13 @@ const LoginNav = () => {
           color: "#AEAFB4",
           border: "none",
           outline: "none",
-          display: "inline-block"
+          display: "inline-block",
         }}
       >
         <option value="uk">Eng</option>
       </select>
     </Navbar>
-  )
-}
+  );
+};
 
-export default LoginNav
+export default LoginNav;

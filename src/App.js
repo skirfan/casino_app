@@ -1,9 +1,13 @@
-import React from "react"
+import React from "react";
 
-import "./App.css"
-import MainNav from "./components/Navbars/MainNav"
-import LoginNav from "./components/Navbars/LoginNav"
-import Banner from "./components/Banner/Banner"
+import "./App.css";
+import MainNav from "./components/Navbars/MainNav";
+import LoginNav from "./components/Navbars/LoginNav";
+import SearchNav from "./components/Navbars/SearchNav";
+import Banner from "./components/Banner/Banner";
+
+import logo from "./images/roulette.png";
+import secondLogo from "./images/path.png";
 
 function App() {
   return (
@@ -11,8 +15,12 @@ function App() {
       <LoginNav />
       <MainNav />
       <Banner />
+
+      <SearchNav name="TOP SLOT GAMES" logo={logo} />
+      <br />
+      <SearchNav name="VIDEO POKER" logo={secondLogo} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
