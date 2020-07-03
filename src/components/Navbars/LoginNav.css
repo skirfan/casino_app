@@ -1,0 +1,39 @@
+input {
+  color: white !important;
+  height: 20px !important;
+  background-color: #212121 !important;
+  outline: none !important;
+  border: none !important;
+}
+
+@media (max-width: 990px) {
+  .login-nav {
+    display: none;
+  }
+}
+
+/* .register-button {
+  width: "107px" !important;
+  height: "26px" !important;
+  margin-left: "10px" !important;
+  display: "inline-flex" !important;
+  align-items: "center" !important;
+  border-radius: "2px" !important;
+  font-weight: "bold" !important;
+} */
+
+.facebook-icon {
+  color: #aeafb4;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20.5px;
+  cursor: pointer;
+}
+
+.instagram-icon {
+  display: inline-block;
+  margin-right: 10px;
+  color: #aeafb4;
+  font-size: 20.5px;
+  cursor: pointer;
+}
