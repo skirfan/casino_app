@@ -25,6 +25,7 @@ const LoginNav = () => {
               borderRadius: "2px",
               fontFamily: "FontAwesome",
             }}
+            className="text-css"
             placeholder="&#xf007; Username"
             aria-label="Username"
             aria-describedby="basic-addon1"
@@ -35,6 +36,7 @@ const LoginNav = () => {
               borderRadius: "2px",
               fontFamily: "FontAwesome",
             }}
+            className="text-css"
             placeholder="&#xf084; Password"
             aria-label="Password"
             aria-describedby="basic-addon1"
